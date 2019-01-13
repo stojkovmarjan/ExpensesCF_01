@@ -143,6 +143,26 @@
     <Compile Include="Migrations\201901132015311_InitalModel.Designer.cs">
       <DependentUpon>201901132015311_InitalModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901132039518_ProductNameRequiered.cs" />
+    <Compile Include="Migrations\201901132039518_ProductNameRequiered.Designer.cs">
+      <DependentUpon>201901132039518_ProductNameRequiered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901132040390_ProductMeasureRequiered.cs" />
+    <Compile Include="Migrations\201901132040390_ProductMeasureRequiered.Designer.cs">
+      <DependentUpon>201901132040390_ProductMeasureRequiered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901132041530_ExpensePriceRemoved.cs" />
+    <Compile Include="Migrations\201901132041530_ExpensePriceRemoved.Designer.cs">
+      <DependentUpon>201901132041530_ExpensePriceRemoved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901132042537_ExpenseQtyRequiered.cs" />
+    <Compile Include="Migrations\201901132042537_ExpenseQtyRequiered.Designer.cs">
+      <DependentUpon>201901132042537_ExpenseQtyRequiered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901132043528_ExpenseTotalRequiered.cs" />
+    <Compile Include="Migrations\201901132043528_ExpenseTotalRequiered.Designer.cs">
+      <DependentUpon>201901132043528_ExpenseTotalRequiered.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exspense.cs" />
     <Compile Include="Models\Product.cs" />
@@ -240,6 +260,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901132015311_InitalModel.resx">
       <DependentUpon>201901132015311_InitalModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132039518_ProductNameRequiered.resx">
+      <DependentUpon>201901132039518_ProductNameRequiered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132040390_ProductMeasureRequiered.resx">
+      <DependentUpon>201901132040390_ProductMeasureRequiered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132041530_ExpensePriceRemoved.resx">
+      <DependentUpon>201901132041530_ExpensePriceRemoved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132042537_ExpenseQtyRequiered.resx">
+      <DependentUpon>201901132042537_ExpenseQtyRequiered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132043528_ExpenseTotalRequiered.resx">
+      <DependentUpon>201901132043528_ExpenseTotalRequiered.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
