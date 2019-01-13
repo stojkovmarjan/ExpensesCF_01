@@ -14,6 +14,7 @@ namespace ExpensesCF_01.Models
         public string Name { get; set; }
 
         [Required]
+        [StringLength(8,MinimumLength =1)]
         public string Measure { get; set; }
     }
 }
