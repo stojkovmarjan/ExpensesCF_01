@@ -163,6 +163,10 @@
     <Compile Include="Migrations\201901132043528_ExpenseTotalRequiered.Designer.cs">
       <DependentUpon>201901132043528_ExpenseTotalRequiered.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901132101228_EmptyMigrationForSql.cs" />
+    <Compile Include="Migrations\201901132101228_EmptyMigrationForSql.Designer.cs">
+      <DependentUpon>201901132101228_EmptyMigrationForSql.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exspense.cs" />
     <Compile Include="Models\Product.cs" />
@@ -275,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901132043528_ExpenseTotalRequiered.resx">
       <DependentUpon>201901132043528_ExpenseTotalRequiered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901132101228_EmptyMigrationForSql.resx">
+      <DependentUpon>201901132101228_EmptyMigrationForSql.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
