@@ -228,6 +228,27 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Views\Shared\css\scrolling-nav.css" />
+    <Content Include="Views\Shared\gulpfile.js" />
+    <Content Include="Views\Shared\index.html" />
+    <Content Include="Views\Shared\js\scrolling-nav.js" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Views\Shared\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Views\Shared\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Views\Shared\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.js" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.min.js" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.slim.js" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -256,6 +277,19 @@
     <Content Include="Views\Products\Details.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\Shared\.gitignore" />
+    <Content Include="Views\Shared\.travis.yml" />
+    <Content Include="Views\Shared\package-lock.json" />
+    <Content Include="Views\Shared\package.json" />
+    <Content Include="Views\Shared\README.md" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Views\Shared\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Views\Shared\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.min.map" />
+    <Content Include="Views\Shared\vendor\jquery\jquery.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
